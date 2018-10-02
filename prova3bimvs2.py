@@ -63,6 +63,17 @@ while(opcao != 6):
             print("Os tipos de revisão: ", tiprevisao[i])
             print("Os valores combinados: ", valcomb[i])
 
+        for i in range(25):
+            if tiprevisao == 1:
+                print("A revisão do tipo ", tiprevisao[i], " tem como valor combinado ", valcomb[i])
+        for i in range(25):
+            if tiprevisao == 2:
+                print("A revisão do tipo ", tiprevisao[i], " tem como valor combinado ", valcomb[i])
+        for i in range(25):
+            if tiprevisao == 3:
+                print("A revisão do tipo ", tiprevisao[i], " tem como valor combinado ", valcomb[i])
+                
+                
     if opcao == 4:
         arevisaomaiscara = 0
         placarevisaomaiscara = 0
